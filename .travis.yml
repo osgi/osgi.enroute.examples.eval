@@ -7,4 +7,5 @@ jdk:
 
 script:
   - mvn install
+  - echo done
 
