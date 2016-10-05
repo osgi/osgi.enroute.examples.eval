@@ -1,0 +1,9 @@
+#
+# OSGi enRoute Eval Example
+#
+
+Bundle-Description: 				\
+	Provides a simple implementation for an eval parser
+
+Export-Package: osgi.enroute.examples.eval.api
+

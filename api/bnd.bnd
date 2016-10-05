@@ -1,0 +1,12 @@
+#
+# OSGi enRoute Examples Eval API Project
+#
+
+Bundle-Description: 				\
+	An API for an expression parser
+
+Require-Capability: \
+	compile-only
+
+Export-Package: osgi.enroute.examples.eval.api
+

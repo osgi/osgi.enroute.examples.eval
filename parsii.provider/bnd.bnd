@@ -1,0 +1,6 @@
+Export-Package: osgi.enroute.examples.eval.api
+
+Private-Package: \
+	parsii.*, \
+	osgi.enroute.examples.eval.parsii.provider
+

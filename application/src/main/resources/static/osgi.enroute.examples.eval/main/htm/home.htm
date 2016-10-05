@@ -1,0 +1,29 @@
+<section 
+	ng-cloak 
+	style="min-height:500px">
+
+	<p>Enter an arithmetic expression like <code>sin(pi)</code>
+	
+	<div 
+		class="input-group">
+	   <input 
+	   	type="text" 
+	   	ng-model=expression 
+	   	class="form-control">
+	   		<span class="input-group-btn">
+	        <button class="btn btn-default" type="button" ng-click=eval(expression)>
+	        	Eval!
+	        </button>
+	   </span>
+	</div>
+	
+	<hr>
+	
+	<div style="min-height:500px">
+		<div ng-repeat="i in answers track by $index">
+			{{i}}			
+		</div>
+		
+	</div>
+</section>
+

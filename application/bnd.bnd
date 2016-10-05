@@ -1,0 +1,11 @@
+
+	Bundle-Description: \
+		Provides a Web based application to evaluate the evaluator
+		
+	EnRoute-Application: 	osgi.enroute.examples.eval
+
+
+
+-includeresource: \
+	{static/osgi.enroute.examples.eval/index.html=src/main/resources/static/osgi.enroute.examples.eval/index.html}
+
