@@ -6,7 +6,7 @@ jdk:
   - oraclejdk8
 
 before_install:
-  - more ~/.m2/settings.xml
+  - cat ~/.m2/settings.xml
   - rm ~/.m2/settings.xml
 
 script:
