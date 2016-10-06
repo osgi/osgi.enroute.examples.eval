@@ -11,7 +11,7 @@
 
 	<artifactId>osgi.enroute.examples.eval.bndrun</artifactId>
 
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<build>
 		<plugins>
 			<plugin>
