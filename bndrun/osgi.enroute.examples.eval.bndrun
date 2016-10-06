@@ -38,7 +38,6 @@
 -runsystempackages.eqnx:		javax.script
 -runsystemcapabilities.dflt: 	${native_capability}
 
-
 -runbundles: \
 	org.apache.felix.configadmin; version='[1.8.8,1.8.9)',\
 	org.apache.felix.gogo.command; version='[0.16.0,0.16.1)',\
@@ -55,12 +54,11 @@
 	osgi.enroute.examples.eval.application; version='[1.0.0,1.0.1)',\
 	osgi.enroute.examples.eval.command; version='[1.0.0,1.0.1)',\
 	osgi.enroute.examples.eval.parsii.provider; version='[1.0.0,1.0.1)',\
-	osgi.enroute.executor.simple.provider; version='[1.0.0,1.0.1)',\
+	osgi.enroute.executor.simple.provider; version='[2.0.0,2.0.1)',\
 	osgi.enroute.gogo.shell.provider; version='[2.0.0,2.0.1)',\
 	osgi.enroute.google.angular.webresource; version='[1.5.7,1.5.8)',\
 	osgi.enroute.logger.simple.provider; version='[2.0.0,2.0.1)',\
 	osgi.enroute.rest.simple.provider; version='[2.0.0,2.0.1)',\
 	osgi.enroute.twitter.bootstrap.webresource; version='[3.3.5,3.3.6)',\
 	osgi.enroute.web.simple.provider; version='[2.0.0,2.0.1)'
-
 
