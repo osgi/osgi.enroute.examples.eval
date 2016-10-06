@@ -6,7 +6,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - rm -rf ~/.m2/repository
   - mvn clean install
   - echo done
 
