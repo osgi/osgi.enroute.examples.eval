@@ -19,7 +19,7 @@
 -resolve.effective:				resolve, active
 	
 -runsystempackages.eqnx:		javax.script
--runsystemcapabilities.dflt: 	${native_capability
+-runsystemcapabilities.dflt: 	${native_capability}
 
 -runbundles: \
 	org.apache.felix.configadmin; version='[1.8.8,1.8.9)',\
